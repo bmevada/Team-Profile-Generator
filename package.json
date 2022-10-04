@@ -1,0 +1,24 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Object-Oriented Programming Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmevada/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "Team",
+    "Profile",
+    "Generator"
+  ],
+  "author": "Bhavika Mevada",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bmevada/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/bmevada/Team-Profile-Generator#readme"
+}
