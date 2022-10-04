@@ -1,13 +1,78 @@
-// rendered output (HTML) and CSS style sheet 
+// rendered output (HTML) and CSS style sheet
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Team Profile Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href=".assets/css/styles.css">
 </head>
+
 <body>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 jumbotron mb-3 team-heading">
+                <h1 class="text-center">Team Profile</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="team-area col-12 d-flex justify-content-center">
+                <!-- Add Manager card with Name, ID, Email, Office Number and Role -->
+                <div class="card employee-card">
+                    <div class="card-header">
+                        <h2 class="card-title">Manager's Name</h2>
+                        <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">ID: (Manager's ID Number)</li>
+                            <li class="list-group-item">Email: <a href="mailto:manager@employer.com">manager@employer.com</a></li>
+                            <li class="list-group-item">Office Number: 0222 111 111</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add Engineer card with Name, ID, Email, Github Username and Role -->
+                <div class="card employee-card">
+                    <div class="card-header">
+                        <h2 class="card-title">Engineer's Name</h2>
+                        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">ID: (Engineer's ID Number)</li>
+                            <li class="list-group-item">Email: <a href="mailto:engineer@employer.com">engineer@employer.com</a></li>
+                            <li class="list-group-item">GitHub: <a href="https://github.com/engineer"
+                                    target="_blank" rel="noopener noreferrer">Engineer's Name</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add Intern's card with Name, ID, Email, School and Role -->
+                <div class="card employee-card">
+                    <div class="card-header">
+                        <h2 class="card-title">Intern's Name</h2>
+                        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">ID: (Intern's ID Number)</li>
+                            <li class="list-group-item">Email: <a href="mailto:intern@employer.com">intern@employer.com</a></li>
+                            <li class="list-group-item">School: Name of School</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
