@@ -4,7 +4,7 @@ const fs = require("fs");
 const generateTeam = require("./src/team-page.js");
 
 // lib modules
-const manager = require("./lib/Manager");
+const manager = require("./lib/manager");
 const engineer = require("./lib/engineer");
 const intern = require("./lib/intern");
 
