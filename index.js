@@ -9,10 +9,10 @@ const engineer = require("./lib/engineer");
 const intern = require("./lib/intern");
 
 
-// Array for answers to questions
+// Array for answers to questions for each employee role
 const employeeRole = [];
 
-// Array object questions asked in CLI to user
+
 const questions = async () => {
     const answers = await inquirer
         .prompt([
