@@ -1,0 +1,5 @@
+.DS_Store/
+.vscode/
+node_modules/
+
+# Above is added so that the node modules directory is not tracked or uploaded to GitHub.
