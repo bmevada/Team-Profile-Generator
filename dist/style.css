@@ -29,6 +29,28 @@ color: white;
     background-color: rgb(48, 175, 48);
 }
 
+
+.card-header {
+    background-color: blue;
+    color: white;
+    font-size: medium;
+}
+
 .list-group-item {
     color: rgb(43, 46, 225);
 }
+
+@media screen and (max-width: 990px) and (orientation: landscape) {
+    /* … */
+    .card-title {
+        font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 770px) and (orientation: landscape) {
+    /* … */
+    .card-title {
+        font-size: 15px;
+    }
+  }
+  
