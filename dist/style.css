@@ -11,9 +11,10 @@ color: white;
 };
 
 .employee-card {
-    margin: 1px;
-    max-width: 250px;
-    min-height: 30rem;
+    margin: 3px;
+    max-width: 280px;
+    width: 90%;
+    min-height: 100rem;
     background-color: rgb(159, 32, 32);
     color: white;
     display: flex;
@@ -25,9 +26,9 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(128, 214, 128);
+    background-color: rgb(48, 175, 48);
 }
 
 .list-group-item {
-    color: white;
+    color: rgb(43, 46, 225);
 }
