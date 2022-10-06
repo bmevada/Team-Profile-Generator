@@ -1,1 +1,29 @@
 /* // rendered output (HTML) and CSS style sheet  */
+.team-heading {
+background-color: rgba(0, 0, 255, 0.648);
+color: white;
+};
+
+.team-area {
+    margin: 2px;
+    width: max-width;
+    flex-wrap: wrap
+};
+
+.employee-card {
+    margin: 1px;
+    max-width: 250px;
+    min-height: 30rem;
+    background-color: rgb(55, 159, 79);
+    color: white;
+    
+
+};
+
+.card-body {
+
+}
+
+.list-group-item {
+
+}
