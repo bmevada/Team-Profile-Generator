@@ -50,7 +50,7 @@ const questions = async () => {
                     name: "officeNumber",
                 },
             ])
-        const newManager = new Manager(
+        const newManager = new manager(
             answers.name,
             answers.id,
             answers.email,
@@ -68,7 +68,7 @@ const questions = async () => {
                     name: "github",
                 }
             ])
-        const newEngineer = new Engineer(
+        const newEngineer = new engineer(
             answers.name,
             answers.id,
             answers.email,
@@ -77,7 +77,7 @@ const questions = async () => {
         employeeRole.push(newEngineer);
 
     // If the role answer is Intern, the following questions will be asked:
-    } else if (answers.role === "intern") {
+    } else if (answers.role === "Intern") {
         const internResponse = await inquirer
             .prompt([
                 {
@@ -87,7 +87,7 @@ const questions = async () => {
                 },
             ])
 
-        const newIntern = new Intern(
+        const newIntern = new intern(
             answers.name,
             answers.id,
             answers.email,
