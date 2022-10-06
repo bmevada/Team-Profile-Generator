@@ -4,9 +4,9 @@ const fs = require("fs");
 const generateTeam = require("./src/team-page.js");
 
 // lib modules
-const manager = require("./lib/manager");
-const engineer = require("./lib/engineer");
-const intern = require("./lib/intern");
+const manager = require("./lib/Manager");
+const engineer = require("./lib/Engineer");
+const intern = require("./lib/Intern");
 
 
 // Array for answers to questions for each employee role
@@ -50,16 +50,16 @@ const questions = async () => {
                     name: "officeNumber",
                 },
             ])
-        const manager = new manager(
+        const newManager = new Manager(
             answers.name,
             answers.id,
             answers.email,
             managerResponse.officeNumber
         );
-        employeeRole.push(manager);
+        employeeRole.push(newManager);
 
     // If the role answer is Engineer, the following questions will be asked:
-    } else if (answers.role === "engineer") {
+    } else if (answers.role === "Engineer") {
         const githubResponse = await inquirer
             .prompt([
                 {
@@ -68,13 +68,13 @@ const questions = async () => {
                     name: "github",
                 }
             ])
-        const engineer = engineer(
+        const newEngineer = new Engineer(
             answers.name,
             answers.id,
             answers.email,
             githubResponse.github
         );
-        employeeRole.push(engineer);
+        employeeRole.push(newEngineer);
 
     // If the role answer is Intern, the following questions will be asked:
     } else if (answers.role === "intern") {
@@ -87,13 +87,13 @@ const questions = async () => {
                 },
             ])
 
-        const intern = intern(
+        const newIntern = new Intern(
             answers.name,
             answers.id,
             answers.email,
             internResponse.school
         );
-        employeeRole.push(intern);
+        employeeRole.push(newIntern);
     }
 
 }; 
