@@ -14,16 +14,20 @@ color: white;
     margin: 1px;
     max-width: 250px;
     min-height: 30rem;
-    background-color: rgb(55, 159, 79);
+    background-color: rgb(159, 32, 32);
     color: white;
-    
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 };
 
 .card-body {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(128, 214, 128);
 }
 
 .list-group-item {
-
+    color: white;
 }
