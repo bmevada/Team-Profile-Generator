@@ -50,7 +50,7 @@ const questions = async () => {
                     name: "officeNumber",
                 },
             ])
-        const manager = manager(
+        const manager = new manager(
             answers.name,
             answers.id,
             answers.email,
