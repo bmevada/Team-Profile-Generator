@@ -1,6 +1,6 @@
 const { Engineer } = require('../lib/Engineer');
 
-test('Creates new Engineer', () => {
+test('Create new Engineer', () => {
   const employee = new Engineer('Engineers Name', 1234, 'engineername@employee.com', 'engineers-name');
 
   expect(employee.name).toBe("Engineers Name");
@@ -9,7 +9,7 @@ test('Creates new Engineer', () => {
   expect(employee.github).toEqual(expect.any(String));
 })
 
-test('Checks all methods for Engineer class', () => {
+test('Checks for Engineer class', () => {
   const employee = new Engineer('Engineers Name', 1234, 'engineername@employee.com', 'engineers-name');
 
   expect(employee.getName()).toBe(employee.name);

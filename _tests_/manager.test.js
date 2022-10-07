@@ -1,6 +1,6 @@
 const { Manager } = require('../lib/Manager');
 
-test('Creates new Manager', () => {
+test('Create new Manager', () => {
     const employee = new Manager('Managers Name', 1234, 'managername@employee.com', 1234567890);
 
     expect(employee.name).toBe("Managers Name");
@@ -9,7 +9,7 @@ test('Creates new Manager', () => {
     expect(employee.officeNumber).toEqual(expect.any(Number));
 })
 
-test('Checks all methods for Manager class', () => {
+test('Check for Manager class', () => {
     const employee = new Manager('Managers Name', 1234, 'managername@employee.com', 1234567890);
 
     expect(employee.getName()).toBe(employee.name);
