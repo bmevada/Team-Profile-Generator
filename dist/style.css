@@ -1,6 +1,6 @@
 /* // rendered output (HTML) and CSS style sheet  */
 .team-heading {
-background-color: rgba(0, 0, 255, 0.648);
+background-color: rgba(199, 4, 46, 0.726);
 color: white;
 };
 
@@ -10,13 +10,14 @@ color: white;
     flex-wrap: wrap
 };
 
+
 .employee-card {
-    margin: 3px;
+    margin: 5px;
     max-width: 280px;
     width: 90%;
     min-height: 100rem;
-    background-color: rgb(159, 32, 32);
-    color: white;
+    background-color: rgb(231, 231, 231);
+    color:black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,6 +35,11 @@ color: white;
     background-color: blue;
     color: white;
     font-size: medium;
+    justify-items: center;
+}
+
+.card-title {
+    justify-content: center;
 }
 
 .list-group-item {
