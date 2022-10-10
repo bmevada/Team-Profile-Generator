@@ -24,6 +24,9 @@ SO THAT I have quick access to their emails and GitHub profiles
 ## Acceptance Criteria
 * GIVEN a command-line application that accepts user input
 * WHEN I am prompted for my team members and their information
+
+<img width="491" alt="questions" src="https://user-images.githubusercontent.com/109460560/194532187-0f8a1d2e-9801-4795-8bfd-c8b249508e8d.png">
+
 * THEN an HTML file is generated that displays a nicely formatted team roster based on user input
 * WHEN I click on an email address in the HTML
 * THEN my default email program opens and populates the TO field of the email with the address
@@ -39,6 +42,8 @@ SO THAT I have quick access to their emails and GitHub profiles
 * THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 * WHEN I decide to finish building my team
 * THEN I exit the application, and the HTML is generated
+
+<img width="499" alt="test" src="https://user-images.githubusercontent.com/109460560/194532265-1b807a9c-3225-4c09-a35a-3959e32872d7.png">
 
 ## Development Technologies Used
  * HTML
