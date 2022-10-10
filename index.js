@@ -12,7 +12,6 @@ const intern = require("./lib/Intern");
 // Array for answers to questions for each employee role
 const employeeRole = [];
 
-
 const questions = async () => {
     const answers = await inquirer
         .prompt([
