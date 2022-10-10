@@ -46,8 +46,8 @@ color: white;
     color: rgb(43, 46, 225);
 }
 
-/* @media screen and (max-width: 990px) and (orientation: landscape) {
-    … */
+@media screen and (max-width: 990px) and (orientation: landscape) {
+    …
     .card-title {
         font-size: 20px;
     }
