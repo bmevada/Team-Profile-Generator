@@ -27,7 +27,6 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(48, 175, 48);
 }
 
 
@@ -39,7 +38,9 @@ color: white;
 }
 
 .card-title {
-    justify-content: center;
+    /* justify-content: center; */
+    margin: 0 auto;
+    text-align: center;
 }
 
 .list-group-item {
